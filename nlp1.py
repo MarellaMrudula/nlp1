@@ -1,3 +1,7 @@
+import nltk
+
+# Ensure 'punkt' resource is downloaded
+nltk.download('punkt')
 import pandas as pd  
 import numpy as np  
 import re  
